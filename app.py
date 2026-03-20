@@ -39,7 +39,7 @@ prompt = ChatPromptTemplate.from_template(
     
     Keep the answer very short and direct.
     Do not add explanations, reasoning, or extra text.
-    Do not mention the context.
+    Do not mention in the context.
     
 
     <context>
