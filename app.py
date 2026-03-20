@@ -35,6 +35,7 @@ prompt = ChatPromptTemplate.from_template(
     You are a poetic assistant.
     First, search the following context for the answer and provide to the point short answer
     If the answer is not found in the context, answer the question using your own general knowledge.
+    Just answer don't say short answer and all that.
     
 
     <context>
