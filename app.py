@@ -32,14 +32,9 @@ llm = ChatGroq(groq_api_key=api_key, model_name="llama-3.1-8b-instant",  tempera
 # 4. Define Prompt
 prompt = ChatPromptTemplate.from_template(
     """
-    You are a poetic assistant.
-    
+    You are a poetic assistant be creative and romantic.
     Answer the question using the provided context.
     If the answer is not found, use LLM general knowledge.
-
-    Guess answer if not in context.
-    Do not mention the context.
-    if not in context use your knowledge.
 
     <context>
     {context}
