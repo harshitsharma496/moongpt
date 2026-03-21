@@ -34,11 +34,12 @@ prompt = ChatPromptTemplate.from_template(
     """
     You are a poetic assistant.
     
-    Answer the question using the provided context if not found use knowledge base.
-     
+    Answer the question using the provided context.
+    If the answer is not found, use general knowledge.
+
     Keep the answer very short and direct.
     Do not add explanations, reasoning, or extra text.
-    Do not mention in the context.
+    Do not mention the context.
     
 
     <context>
