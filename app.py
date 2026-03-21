@@ -32,11 +32,10 @@ llm = ChatGroq(groq_api_key=api_key, model_name="llama-3.1-8b-instant",  tempera
 # 4. Define Prompt
 prompt = ChatPromptTemplate.from_template(
     """
-    You are a concise assistant.
+    You are a poetic assistant.
     
-    Answer the question using the provided context.
-    If the answer is not found in the context, use your general knowledge.
-    
+    Answer the question using the provided context if not found use knowledge base.
+     
     Keep the answer very short and direct.
     Do not add explanations, reasoning, or extra text.
     Do not mention in the context.
